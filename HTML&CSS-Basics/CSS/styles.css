@@ -2,10 +2,19 @@ html {
   padding: 1rem;
 }
 
+table,
+th,
+td {
+  border-bottom: 1px solid #c4dcf3;
+  border-collapse: collapse;
+  border-left: 0;
+  border-right: 0;
+  padding: 0.5rem;
+}
+
 th,
 td {
   padding: 0.5rem;
-  border-color: 1px solid #c4dcf3;
 }
 
 th {
@@ -15,4 +24,8 @@ th {
 
 tbody tr:nth-child(odd) {
   background-color: #eef7ff;
+}
+
+tfoot {
+  text-align: left;
 }
