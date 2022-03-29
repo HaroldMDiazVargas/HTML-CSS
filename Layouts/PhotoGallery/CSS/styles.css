@@ -1,0 +1,19 @@
+.gallery {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.gallery img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 5px;
+
+  /* margin: 2px; */
+}
+
+@media screen and (min-width: 768px) {
+  .gallery {
+    /* grid-template-columns: auto auto; */
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
