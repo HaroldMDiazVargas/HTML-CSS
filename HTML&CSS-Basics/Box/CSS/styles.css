@@ -1,0 +1,11 @@
+html {
+  box-sizing: border-box;
+  margin: 10px;
+}
+.box {
+  background-color: tomato;
+  border-radius: 15px;
+  box-shadow: 10px lightgrey;
+  height: 300px;
+  width: 300px;
+}
