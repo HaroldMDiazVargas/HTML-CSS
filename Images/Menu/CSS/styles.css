@@ -11,10 +11,16 @@ body {
   margin: 0rem;
 }
 
+i {
+  /* margin-right: 0.5rem; */
+  /* height: */
+}
+
 li {
   /* background: ; */
   padding: 1rem;
   list-style: none;
+  display: block;
 }
 li:hover,
 li::selection {
