@@ -1,0 +1,41 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  margin: 10rem;
+}
+
+.card {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 30px;
+  box-shadow: 0 0 0 10px #f9f9f9;
+  overflow: hidden;
+}
+
+.card .content {
+  padding: 2rem;
+  font-weight: bold;
+}
+
+.card footer {
+  background: linear-gradient(90deg, #74d690, #5cbfbb);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card .photo {
+  border-radius: 100%;
+  border: 3px solid #fff;
+  max-width: 66px;
+  margin: 1.2rem 0.7rem 1.2rem 3rem;
+}
+
+.card .name {
+  color: #fff;
+  /* display: inline; */
+}
